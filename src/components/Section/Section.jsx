@@ -10,17 +10,6 @@ export const Section = ({ title, children }) => {
   );
 };
 
-// export const Section = ({ title, children }) => {
-//   return (
-//     <section className={css.section_container}>
-//       <h1 className={css.section_header}>{title}</h1>
-//       {children}
-//     </section>
-//   );
-// };
-
-// export const Section = ({ title }) => <h1 className={css.header}>{title}</h1>;
-
 Section.propTypes = {
   title: PropTypes.string.isRequired,
   children: PropTypes.node.isRequired,
